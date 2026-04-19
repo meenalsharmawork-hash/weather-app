@@ -12,7 +12,7 @@ const API_KEY = "acfaa6b777ff410c944125822261904"; // apni key daalna
 
 async function fetchWeatherData(city) {
   try {
-    const url = `https://api.weatherapi.com/v1/current.json?key=${acfaa6b777ff410c944125822261904}&q=${city}&aqi=no`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=${'acfaa6b777ff410c944125822261904'}&q=${city}&aqi=no`;
 
     const response = await fetch(url);
 
